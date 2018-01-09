@@ -11,7 +11,7 @@ def sed_mail(new_html):
     email_user = '857519423@qq.com'
     email_pwd = 'WOAINI627'
     # 收件人邮箱，如果多个邮箱中间用逗号隔开
-    milelist = 'yueli@jiangtai.com'  # 收件人邮箱，如果多个邮箱中间用逗号隔开
+    milelist = 'maxian@jiangtai.com'  # 收件人邮箱，如果多个邮箱中间用逗号隔开
 
     # 构造附件1
     att1 = MIMEText(open(new_html, 'rb').read(), 'base64', 'gb2312')
